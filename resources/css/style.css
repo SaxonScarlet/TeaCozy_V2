@@ -1,0 +1,61 @@
+/* Global */
+body {
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+  text-align: center;
+}
+
+.flex-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+/* Header */
+header {
+  height: 69px;
+  border-bottom: 1px solid seashell;
+  position: fixed;
+  z-index: 5;
+  width: 100%;
+  align-items: center;
+}
+
+nav {
+  text-align: right;
+  flex-grow: 1;
+}
+
+nav span {
+  display: inline-block;
+  padding: 20px 10px;
+}
+
+header img {
+  height: 50px;
+  padding-left: 10px;
+}
+
+span a {
+  text-decoration: underline;
+  color: seashell;
+}
+
+/* Main Content */
+.main-content {
+  padding-top: 69px;
+}
+
+  /* Our Mission */
+
+  /* Tea of the Month */
+
+  /* Locations */
+
+/* Contact */
+
+
+/* Footer */
